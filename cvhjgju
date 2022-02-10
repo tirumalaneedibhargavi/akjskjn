@@ -1,0 +1,16 @@
+#1nclude <stdio.h>
+int main()
+{
+    int N = 4;
+    int *p1;
+    p1 = &N;
+    printf("\nvariable address:%u",p1);
+    p1=p1+1;
+    printf(" \nvariable address after increment:%u",p1);
+    p1=p1+2;
+    printf("\n variable address after addition:%u",p1);
+    p1=p1-4;
+    printf(" \nvariable address after subtraction  :%u",p1); 
+    p1=p1-1;
+    printf(" \nvariable address after decrement:%u",p1);
+}
